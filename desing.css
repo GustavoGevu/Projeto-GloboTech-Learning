@@ -1,0 +1,177 @@
+body{ 
+    background-image: url(https://www.alura.com.br/artigos/assets/hello-world-em-varias-linguagens/imagem1.gif); /* Caminho para a sua imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+     /* Mantém a imagem fixa enquanto você rola a página */
+    background-size: cover; /* Garante que a imagem cubra toda a área do corpo */
+    background-position: center top -405px; /* Posiciona o gif no centro na parte superior */
+    background-attachment: fixed; /* Mantém o gif fixo independentemente do zoom */
+   }
+   
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.title{
+    flex-direction:row-reverse;
+    color: purple;
+    align-content: center;
+    font-family: "Teachers", sans-serif;
+       }
+
+.title1{
+    flex-direction:row-reverse;
+    color: rgb(64, 64, 165);
+    align-content: center;
+    font-family: "Teachers", sans-serif;
+       }
+
+
+.titleMenu{
+    
+    font-size: x-large;
+    flex-direction:row-reverse;
+    color: purple;
+    align-content: center;
+    font-family: "Teachers", sans-serif;
+       }
+
+.title h1{
+    flex-direction: row;
+    color: white;
+    font-size: 50px;
+    font-family: "Teachers", sans-serif;
+       
+}
+
+   .menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+.menu-items a {
+    color: white; /* Cor do texto dos itens do menu */
+    text-indent: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-items a:hover {
+    text-decoration: underline;
+    color: gray; 
+    
+    background-color: transparent;
+    text-decoration: none;/* Efeito de sublinhado ao passar o mouse */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    font-family: "Teachers", sans-serif;
+}
+
+
+a:hover {
+    color: rgb(79, 77, 77);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+   
+   
+   /* Definir a parte fixa do site */
+#div-fixa {
+    position: fixed;
+    top: 0px; /* Define a distância do topo */
+    left: 0px; /* Define a distância da esquerda */
+    height: auto; /* Define a altura */
+    width: 100%  ; /* Define a largura */
+    background-color: black; /* Define a cor de fundo */
+    padding: 20px; /* Define o espaçamento entre o conteúdo e as bordas */
+    border: 2px solid purple; /* Define as bordas */
+    border-radius: 1px;  
+    color: white;
+
+}
+
+
+.toggle-div {
+    width: auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+#menu{
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);  
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    width: 270px;
+    transition: width 0.5s ease; /* Adiciona uma transição suave para a largura */
+    border: 2px solid purple; /* Define as bordas */
+    border-radius: 1px; 
+}
+
+
+#Titulo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 200px;
+    color: red;
+}
+
+.corpo{
+    margin-top:  120px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(64, 64, 165);    
+    padding: 20px;
+}
+   
+.text{
+    padding: 5px;
+    color: white;   
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.btn{
+    color: white;
+    
+}
+
+.btn:hover{
+    color: gray;
+}
+
+
+.ruim{
+    color: red;
+}
+.regular{
+    color: orange;
+}
+.boa{
+    color: rgb(137, 227, 27);
+}
+.excelente{
+    color: green;
+}
+
+.caixa{
+    width: 1200px;
+    right: auto;
+}
