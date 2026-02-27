@@ -1,7 +1,4 @@
-# Forçar a detecção de JavaScript e CSS como códigos principais
 *.js linguist-detectable=true
 *.css linguist-detectable=true
-
-# Esconder os dois maiores arquivos HTML para equilibrar a barra de linguagens
 index.html linguist-vendored
 avalie.html linguist-vendored
