@@ -1,4 +1,9 @@
-*.js linguist-detectable=true
-*.css linguist-detectable=true
+# Forçar a detecção de tudo que é código, inclusive em pastas
+**/*.js linguist-detectable=true
+**/*.css linguist-detectable=true
+
+# Marcar os arquivos de texto como "vendored" (escondidos da estatística)
+# Isso libera espaço para o JS e o CSS brilharem na barra
 index.html linguist-vendored
 avalie.html linguist-vendored
+nos.html linguist-vendored
