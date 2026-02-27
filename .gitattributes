@@ -1,11 +1,7 @@
-# Força o GitHub a contar todo o seu código JavaScript, mesmo dentro da pasta js
+# Forçar a detecção de JavaScript e CSS como códigos principais
 *.js linguist-detectable=true
-js/*.js linguist-detectable=true
-
-# Garante que o CSS e o HTML também sejam contados
 *.css linguist-detectable=true
-*.html linguist-detectable=true
 
-# Se quiser que o HTML apareça menos (para dar destaque ao JS), 
-# podemos marcar apenas o index.html como documentação
-index.html linguist-documentation
+# Esconder os dois maiores arquivos HTML para equilibrar a barra de linguagens
+index.html linguist-vendored
+avalie.html linguist-vendored
